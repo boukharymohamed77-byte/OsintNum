@@ -6,7 +6,7 @@ import time
 import sys
 
 # API Key para el servicio de validación (debe ser proporcionada por el usuario)
-API_KEY = "Your_API_Key"
+API_KEY = "jjAzcpPEcc77GrdU5L6kBOTRRDsZzBY0"
 
 def validate_number(phone_number):
     url = f"https://api.apilayer.com/number_verification/validate?number={phone_number}"
